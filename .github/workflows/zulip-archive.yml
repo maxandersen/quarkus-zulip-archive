@@ -18,6 +18,7 @@ jobs:
         zulip_bot_email: ${{ secrets.zulip_bot_email }}
         zulip_bot_key: ${{ secrets.zulip_bot_key }}
         github_personal_access_token: ${{ secrets.gh_pat }}
-        delete_history: false # should be made true when live to avoid explosive growth of repo
+         # should be made true when live to avoid explosive growth of repo
+        delete_history: false
         archive_branch: main
 
